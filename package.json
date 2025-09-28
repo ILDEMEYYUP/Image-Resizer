@@ -1,0 +1,26 @@
+{
+  "name": "firstapp",
+  "productName": "ImageResizer",
+  "version": "1.0.0",
+  "description": "App to resize image dimensions",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "com.eyp.imageresizer",
+    "productName": "Image Resizer"
+  },
+  "author": "Eyp",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^38.1.2",
+    "firstapp": "^0.0.1",
+    "resize-img": "^2.0.0",
+    "toastify": "^2.0.1",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12"
+  }
+}
